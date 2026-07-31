@@ -20,6 +20,7 @@ baseurl: ""
 # Optional links shown in the footer. Delete any you don't want.
 social:
   github: jan-a-krzywda
+  scholar: "https://scholar.google.com/citations?user=HAbQfbIAAAAJ&hl=eng"
   # linkedin: your-handle
   # orcid: 0000-0000-0000-0000
   # bluesky: you.bsky.social
@@ -32,8 +33,8 @@ nav:
     url: /about/
   - title: Repositories
     url: /repos/
-  - title: CV
-    url: /cv/
+  # - title: CV
+  #   url: /cv/
 
 # ---------------------------------------------------------------------------
 # Build settings — you shouldn't need to touch these.

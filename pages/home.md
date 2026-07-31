@@ -17,7 +17,7 @@ original_url: "https://jan-a-krzywda.com/"
 
 <div class="fig-col" style="flex-basis:33.33%">
 <figure class="post-figure">
-  <img src="{{ site.baseurl }}/assets/images/test123-150x150.jpg" alt="" loading="lazy" />
+  <img src="{{ site.baseurl }}/assets/images/krzywda_photo.png" alt="Jan A. Krzywda" loading="lazy" />
 </figure>
 </div>
 </div>
