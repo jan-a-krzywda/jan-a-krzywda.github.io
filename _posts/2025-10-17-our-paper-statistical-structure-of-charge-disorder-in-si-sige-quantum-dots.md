@@ -4,6 +4,7 @@ title: "[Our Paper] Statistical Structure of Charge Disorder in Si/SiGe Quantum 
 date: 2025-10-17 10:21:17 +0000
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/our-paper-statistical-structure-of-charge-disorder-in-si-sige-quantum-dots/"
+image: /assets/images/image-6-1024x655.png
 ---
 
 I personally believe spin qubits are one of the most promising platforms for large-scale quantum computing. For sure they are on top, in terms of interesting physical phenomena to analyze. Besides that, we are often promising to leverage highly repeatable industrial technologies to create devices containing millions of qubits, but at the current stage, getting tens of fully functional qubits is a challenge.

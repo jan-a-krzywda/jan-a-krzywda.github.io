@@ -4,6 +4,7 @@ title: "Scientist vs Engineer: The Differences"
 date: 2026-02-08 07:11:25 +0000
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/scientist-vs-engineer-the-differences/"
+image: https://jan-a-krzywda.com/wp-content/uploads/2026/02/aL6uRmGNHVfTOwpd_SP942-ScienceandEngineering-edited-1024x683.avif
 ---
 
 ![](https://jan-a-krzywda.com/wp-content/uploads/2026/02/aL6uRmGNHVfTOwpd_SP942-ScienceandEngineering-edited-1024x683.avif)

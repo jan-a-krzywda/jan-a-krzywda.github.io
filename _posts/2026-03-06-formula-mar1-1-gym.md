@@ -4,6 +4,7 @@ title: "Formula Mar1 - #1 Gym"
 date: 2026-03-06 15:46:29 +0000
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/formula-mar1-1-gym/"
+image: /assets/images/image.png
 ---
 
 GitHub repo: <https://github.com/jan-a-krzywda/marl-f1>

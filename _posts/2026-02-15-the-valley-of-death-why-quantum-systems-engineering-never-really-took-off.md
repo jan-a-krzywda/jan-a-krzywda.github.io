@@ -4,6 +4,7 @@ title: "The Valley of Death: Why Quantum Systems Engineering Never Really Took O
 date: 2026-02-15 07:34:01 +0000
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/the-valley-of-death-why-quantum-systems-engineering-never-really-took-off/"
+image: /assets/images/image-32.png
 ---
 
 In the previous parts, we established that Scientists and Engineers speak different languages, yet they often need to share tools or negotiate common ground. For large projects, this process is most efficient with a **Systems Engineer**, who can define a concrete interface between the two—setting concrete goals for the engineer while framing the open problems for the scientist. We also argued that Quantum Computing clearly requires such a bridge. So, logically, Quantum Systems Engineering (QSE) should be a thriving, booming discipline by now, right?

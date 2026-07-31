@@ -4,6 +4,7 @@ title: "Quantum Digital Twin: How I Trained AI to Hallucinate the Physics of a 1
 date: 2026-04-14 12:29:52 +0000
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/quantum-digital-twin-how-i-trained-ai-to-hallucinate-the-physics-of-a-17-qubit-processor/"
+image: /assets/images/image-4.png
 ---
 
 [GitHub Repo ![]({{ site.baseurl }}/assets/images/25231.png)](https://github.com/jan-a-krzywda/quantum-gym)

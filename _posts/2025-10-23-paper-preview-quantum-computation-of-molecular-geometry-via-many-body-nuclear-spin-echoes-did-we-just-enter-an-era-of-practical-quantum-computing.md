@@ -5,6 +5,7 @@ date: 2025-10-23 14:07:07 +0000
 categories: ["previews"]
 tags: ["previews", "quantum-learning-machines"]
 original_url: "https://jan-a-krzywda.com/paper-preview-quantum-computation-of-molecular-geometry-via-many-body-nuclear-spin-echoes-did-we-just-enter-an-era-of-practical-quantum-computing/"
+image: /assets/images/Screenshot-2025-10-23-at-15.45.37.png
 ---
 
 ![]({{ site.baseurl }}/assets/images/Screenshot-2025-10-23-at-15.45.37.png)

@@ -4,6 +4,7 @@ title: "Quantum Computing: A Sisyphean Task or a Promethean Gift?"
 date: 2025-10-03 05:59:09 +0000
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/quantum-computing-a-sisyphean-task-or-a-promethean-gift/"
+image: /assets/images/image.png
 ---
 
 I recently fell down a quantum rabbit hole, emerging between two wildly different worlds. First, I watched a video by former physicist Sabine Hossenfelder explaining why she’s done with the hype around quantum computing. Minutes later, my feed showed me a report on the first-ever use of quantum trading, an announcement that helped trigger a 5% stock price jump for IBM.

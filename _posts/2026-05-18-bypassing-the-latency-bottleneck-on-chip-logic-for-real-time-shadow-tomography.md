@@ -4,6 +4,7 @@ title: "Bypassing the Latency Bottleneck: On-Chip Logic for Real-Time Shadow Tom
 date: 2026-05-18 11:27:10 +0000
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/bypassing-the-latency-bottleneck-on-chip-logic-for-real-time-shadow-tomography/"
+image: /assets/images/image-15.png
 ---
 
 [GitHub Repo ![]({{ site.baseurl }}/assets/images/25231.png)](https://github.com/jan-a-krzywda/quantum-gym/tree/main/shadow_gym)

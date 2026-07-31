@@ -4,6 +4,7 @@ title: "Challenge 99/24: Bridging the Technological Gap in Spin Qubit Devices"
 date: 2026-02-21 14:36:23 +0000
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/challenge-99-24-bridging-the-technological-gap-in-spin-qubit-devices/"
+image: /assets/images/image-38.png
 ---
 
 In the [previous post](https://jan-a-krzywda.com/the-valley-of-death-why-quantum-systems-engineering-never-really-took-off/), we discussed the gap in Technological Readiness Levels (TRL), a "valley of death" that currently traps quantum devices in a region where funding is still mostly academic. I believe the best way to bridge this gap is to formulate a sufficiently meaningful challenge. Solving it would allow us to leapfrog the gap entirely. Here, I propose one such challenge, explain its motivation using a motorsport analogy, break down why it is so difficult, and suggest a potential path to solve it.

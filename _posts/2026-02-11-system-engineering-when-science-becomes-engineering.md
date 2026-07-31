@@ -4,6 +4,7 @@ title: "Systems Engineering: When Science Becomes Engineering"
 date: 2026-02-11 06:07:36 +0000
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/system-engineering-when-science-becomes-engineering/"
+image: /assets/images/image-29-1024x512.png
 ---
 
 ![]({{ site.baseurl }}/assets/images/image-29-1024x512.png)

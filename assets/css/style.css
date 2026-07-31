@@ -114,9 +114,39 @@ th, td { border-bottom: 1px solid var(--rule); padding: 0.5rem; text-align: left
 
 .post-list { list-style: none; padding: 0; margin: 2rem 0 0; }
 
+.content:has(.post-list) { max-width: 60rem; }
+
 .post-list li {
   padding: 1.1rem 0;
   border-bottom: 1px solid var(--rule);
+}
+
+.post-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.post-thumb {
+  flex: 0 0 auto;
+  width: 96px;
+  height: 96px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--rule);
+}
+
+.post-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.post-body { flex: 1 1 auto; min-width: 0; }
+
+@media (max-width: 480px) {
+  .post-thumb { width: 64px; height: 64px; }
 }
 
 .post-list h2 { font-size: 1.15rem; margin: 0 0 0.2rem; }

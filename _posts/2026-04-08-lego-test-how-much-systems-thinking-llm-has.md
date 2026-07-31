@@ -4,6 +4,7 @@ title: "The Lego Test: How much systems thinking does an LLM have?"
 date: 2026-04-08 04:28:31 +0000
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/lego-test-how-much-systems-thinking-llm-has/"
+image: /assets/images/Gemini_Generated_Image_286ogb286ogb286o-1-672x1024.png
 ---
 
 This post is a more practical take following the previous [post](https://jan-a-krzywda.com/listened-blocks-of-intelligence-why-ai-needs-systems-engineering-and-the-scientific-method/) on Bayesian thinking and systems engineering for the future of AI.

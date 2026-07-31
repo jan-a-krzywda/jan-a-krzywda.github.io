@@ -4,6 +4,7 @@ title: "Erratiq: Human Perception for Quantum Error Decoding"
 date: 2026-04-23 20:35:41 +0000
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/erratiq-human-perception-for-quantum-error-decoding/"
+image: /assets/images/image-7-1024x818.png
 ---
 
 [Play the game](https://erratiq.xyz/)
