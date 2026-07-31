@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  {%- seo -%}
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav class="site-nav">
+      {%- for link in site.nav %}
+      <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+      {%- endfor %}
+    </nav>
+  </header>
+
+  <main class="content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      {%- if site.social.github %}<a href="https://github.com/{{ site.social.github }}">GitHub</a>{% endif %}
+      {%- if site.social.linkedin %}<a href="https://www.linkedin.com/in/{{ site.social.linkedin }}">LinkedIn</a>{% endif %}
+      {%- if site.social.orcid %}<a href="https://orcid.org/{{ site.social.orcid }}">ORCID</a>{% endif %}
+      {%- if site.social.bluesky %}<a href="https://bsky.app/profile/{{ site.social.bluesky }}">Bluesky</a>{% endif %}
+      {%- if site.email %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </div>
+    <p class="copyright">© {{ site.time | date: "%Y" }} {{ site.author }}</p>
+  </footer>
+</body>
+</html>

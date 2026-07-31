@@ -1,0 +1,20 @@
+---
+layout: default
+title: null
+---
+<p class="tagline">{{ site.tagline }}</p>
+
+<ul class="post-list">
+  {%- for post in site.posts %}
+  <li>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>
+    {%- if post.categories.size > 0 %}
+      {% for c in post.categories %}<span class="tag">{{ c }}</span>{% endfor %}
+    {%- endif %}
+    <p class="post-excerpt">{{ post.excerpt | default: post.content | strip_html | truncate: 180 }}</p>
+  </li>
+  {%- else %}
+  <li><p>No posts yet. Drop Markdown files into <code>_posts/</code> and they'll appear here.</p></li>
+  {%- endfor %}
+</ul>

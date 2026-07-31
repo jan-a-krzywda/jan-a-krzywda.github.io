@@ -1,0 +1,73 @@
+# ---------------------------------------------------------------------------
+# Edit the values in this block, then leave the rest alone.
+# ---------------------------------------------------------------------------
+title: Jan A. Krzywda
+tagline: Notes, writing, and code
+description: >-
+  Personal site and blog.
+author: Jan A. Krzywda
+email: j.a.krzywda@gmail.com
+
+# Your GitHub username — used by the Repositories page to list your repos.
+github_username: jan-a-krzywda
+
+# If the repo is named <username>.github.io, leave baseurl empty and set url to
+# https://<username>.github.io
+# If the repo has any other name (e.g. "website"), set baseurl: "/website"
+url: "https://jan-a-krzywda.github.io"
+baseurl: ""
+
+# Optional links shown in the footer. Delete any you don't want.
+social:
+  github: jan-a-krzywda
+  # linkedin: your-handle
+  # orcid: 0000-0000-0000-0000
+  # bluesky: you.bsky.social
+
+# Navigation bar
+nav:
+  - title: Blog
+    url: /
+  - title: About
+    url: /about/
+  - title: Repositories
+    url: /repos/
+  - title: CV
+    url: /cv/
+
+# ---------------------------------------------------------------------------
+# Build settings — you shouldn't need to touch these.
+# ---------------------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+permalink: /:year/:month/:title/
+paginate: false
+timezone: Europe/Amsterdam
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+include:
+  - pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - wp2jekyll.py
+  - "*.xml.bak"
