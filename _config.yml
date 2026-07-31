@@ -25,16 +25,22 @@ social:
   # orcid: 0000-0000-0000-0000
   # bluesky: you.bsky.social
 
-# Navigation bar
+# Navigation bar. Add `external: true` for links off this site — they open in a
+# new tab and get a small ↗ marker.
 nav:
   - title: Blog
     url: /
-  - title: About
-    url: /about/
   - title: Repositories
     url: /repos/
-  # - title: CV
-  #   url: /cv/
+  - title: Scholar
+    url: "https://scholar.google.com/citations?user=HAbQfbIAAAAJ&hl=en&oi=ao"
+    external: true
+  - title: OpenSpin
+    url: "https://openspin.github.io/"
+    external: true
+  - title: arXave
+    url: "https://jan-a-krzywda.github.io/arxave/"
+    external: true
 
 # ---------------------------------------------------------------------------
 # Build settings — you shouldn't need to touch these.

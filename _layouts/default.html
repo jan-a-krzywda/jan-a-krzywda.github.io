@@ -13,7 +13,11 @@
     <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
     <nav class="site-nav">
       {%- for link in site.nav %}
+      {%- if link.external %}
+      <a class="ext" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}<span aria-hidden="true">↗</span></a>
+      {%- else %}
       <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+      {%- endif %}
       {%- endfor %}
     </nav>
   </header>

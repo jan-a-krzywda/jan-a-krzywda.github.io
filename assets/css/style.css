@@ -61,6 +61,12 @@ body {
 }
 .site-nav a:hover { color: var(--accent); }
 .site-nav a:first-child { margin-left: 0; }
+.site-nav a.ext span { font-size: 0.7em; margin-left: 0.15em; opacity: 0.6; }
+
+@media (max-width: 560px) {
+  .site-header { justify-content: flex-start; }
+  .site-nav a { margin: 0 1rem 0 0; }
+}
 
 /* ---------- typography ---------- */
 a { color: var(--accent); }
@@ -208,17 +214,100 @@ th, td { border-bottom: 1px solid var(--rule); padding: 0.5rem; text-align: left
 .post-nav .next { margin-left: auto; text-align: right; }
 
 /* ---------- repos ---------- */
-.repo-grid { display: grid; gap: 0.85rem; margin-top: 1.5rem; }
+/* the grid needs more room than the prose column */
+.content:has(.repo-grid) { max-width: 60rem; }
 
-.repo-card {
+.repo-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+#repo-filter {
+  flex: 1 1 auto;
+  min-width: 0;
+  font: inherit;
+  font-size: 0.92rem;
+  color: var(--text);
+  background: transparent;
   border: 1px solid var(--rule);
   border-radius: 8px;
-  padding: 0.9rem 1rem;
+  padding: 0.45rem 0.7rem;
 }
-.repo-card h3 { margin: 0 0 0.25rem; font-size: 1.02rem; }
-.repo-card h3 a { text-decoration: none; }
-.repo-card p { margin: 0 0 0.4rem; font-size: 0.92rem; color: var(--muted); }
-.repo-meta { font-size: 0.8rem; color: var(--muted); display: flex; gap: 1rem; }
+#repo-filter:focus { outline: none; border-color: var(--accent); }
+.repo-count { font-size: 0.8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 0.85rem;
+  margin-top: 1.25rem;
+}
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.repo-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+.repo-card h3 {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  margin: 0 0 0.3rem;
+  font-size: 1.02rem;
+  color: var(--accent);
+}
+.repo-card p { margin: 0 0 0.55rem; font-size: 0.92rem; color: var(--muted); }
+.repo-card.is-pinned { border-color: color-mix(in srgb, var(--accent) 40%, var(--rule)); }
+.repo-pin { font-size: 0.8rem; color: var(--muted); }
+
+.repo-topics { margin-bottom: 0.55rem; }
+.repo-topics .tag { margin-bottom: 0.25rem; }
+
+/* meta sits at the card's bottom so rows line up across the grid */
+.repo-meta {
+  margin-top: auto;
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+.repo-lang { display: inline-flex; align-items: center; gap: 0.35rem; }
+.repo-lang i {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.repo-updated { margin-left: auto; }
+
+/* placeholders shown while the GitHub request is in flight */
+.repo-card.is-skeleton {
+  height: 8.5rem;
+  border-style: dashed;
+  opacity: 0.5;
+  animation: repo-pulse 1.4s ease-in-out infinite;
+}
+.repo-card.is-skeleton:nth-child(2) { animation-delay: 0.15s; }
+.repo-card.is-skeleton:nth-child(3) { animation-delay: 0.3s; }
+.repo-card.is-skeleton:nth-child(4) { animation-delay: 0.45s; }
+@keyframes repo-pulse { 50% { opacity: 0.2; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .repo-card, .repo-card.is-skeleton { transition: none; animation: none; }
+  .repo-card:hover { transform: none; }
+}
 
 /* ---------- footer ---------- */
 .site-footer {
