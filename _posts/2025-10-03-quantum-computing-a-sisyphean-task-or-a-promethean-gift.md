@@ -2,9 +2,9 @@
 layout: post
 title: "Quantum Computing: A Sisyphean Task or a Promethean Gift?"
 date: 2025-10-03 05:59:09 +0000
+image: /assets/images/Gemini_Generated_Image_f56w7pf56w7pf56w-e1759471243693.png
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/quantum-computing-a-sisyphean-task-or-a-promethean-gift/"
-image: /assets/images/image.png
 ---
 
 I recently fell down a quantum rabbit hole, emerging between two wildly different worlds. First, I watched a video by former physicist Sabine Hossenfelder explaining why she’s done with the hype around quantum computing. Minutes later, my feed showed me a report on the first-ever use of quantum trading, an announcement that helped trigger a 5% stock price jump for IBM.
@@ -15,7 +15,9 @@ So, where on this vast spectrum of hype and hope should we stand?
 
 On one side, you have skeptics like Dr. Hossenfelder. They argue that quantum computing is dangerously overhyped to attract funding, consuming astronomical resources while remaining decades away from practical use. She warns of a potential "Quantum Winter"—a moment when investors finally call the bluff, funding dries up, and the entire field is set back by years. While this dynamic lies outside of pure science, it is inextricably linked to it through the decisions of funding agencies and venture capitalists.
 
-https://youtu.be/MukMOZ0J-Ww?si=Ys0-jlbR8FCSATq4
+<figure class="post-figure post-embed">
+  <iframe src="https://www.youtube.com/embed/MukMOZ0J-Ww" title="" frameborder="0" loading="lazy" allowfullscreen></iframe>
+</figure>
 
 Encouragingly, some in the field are already implementing guidelines to avoid unnecessary hype (See [Ezratty 2022](https://arxiv.org/abs/2202.01925) for the analysis and guidelines). In the long run, this should help shift the investment model from a "fake it till you make it" approach to a more academic "show it to grow it" standard. At the end of the day, such a sustainable, evidence-based growth is far more beneficial for society, even if resources are allocated more slowly. (I believe the same applies to AI, but that’s a topic for another day).
 
@@ -27,7 +29,9 @@ These are the provocative questions Dr. Hossenfelder raises. While her tone can 
 
 On the other side of the spectrum are the investors and corporations themselves. Depending on your perspective, they are either pumping the bubble or genuinely reporting a breakthrough. For this section, let's assume the latter.
 
-https://youtu.be/jr6P2ZB5lmM?si=tiU7u6XzzyoQBXOm
+<figure class="post-figure post-embed">
+  <iframe src="https://www.youtube.com/embed/jr6P2ZB5lmM" title="" frameborder="0" loading="lazy" allowfullscreen></iframe>
+</figure>
 
 Recently, HSBC and IBM announced what they called a "Sputnik moment" for finance. Their [paper](https://arxiv.org/pdf/2509.17715v1) claim was an "up to 34 percent improvement" in predicting the likelihood of a bond trade being successfully executed. The announcement was a PR success, boosting IBM's stock. But what did they actually do?
 
@@ -45,6 +49,8 @@ Constructive criticism of the quantum hype is essential to allocate resources wi
 
 **Full Disclosure:** Personally, I hope that quantum computing's first major breakthrough isn't in algorithmic trading, but rather in stochastic optimal control. This idea of using structured noise as a resource in hybrid algorithms aligns closely with my own work. In fact, my research group recently received funding to explore quantum computers for stochastic trajectory generation, and I promise to keep you updated on our developments.
 
-![]({{ site.baseurl }}/assets/images/image.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image.png" alt="" loading="lazy" />
+</figure>
 
 Relevant projects: #[QuantumLearningMachines](https://jan-a-krzywda.com/quantum-learning-machines/)

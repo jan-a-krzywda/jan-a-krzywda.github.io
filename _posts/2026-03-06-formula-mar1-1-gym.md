@@ -2,20 +2,24 @@
 layout: post
 title: "Formula Mar1 - #1 Gym"
 date: 2026-03-06 15:46:29 +0000
+image: /assets/images/MQ7-0-image-20210922114417-00_Main_4252.jpg
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/formula-mar1-1-gym/"
-image: /assets/images/image.png
 ---
 
 GitHub repo: <https://github.com/jan-a-krzywda/marl-f1>
 
 *"What I cannot create, I do not understand."* When Richard Feynman wrote those famous last words on his blackboard, he probably didn't have Multi-Agent Reinforcement Learning (MARL) for Formula 1 strategy in mind. Nevertheless, the thread that connects his philosophy to modern motorsport is the power of model-based thinking.
 
-![]({{ site.baseurl }}/assets/images/image.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image.png" alt="" loading="lazy" />
+</figure>
 
 To prove this point, this post will attempt to model the new 2026 Formula 1 regulations [1], which push the sport in a vastly more complex direction. With the highly anticipated season kicking off this weekend in Australia, everyone is wondering how the new rules will affect racing at 300 km/h in this state-of-the-art engineering endeavor. Since nobody knows for sure, we are going to build it to find out.
 
-![]({{ site.baseurl }}/assets/images/image-1.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-1.png" alt="" loading="lazy" />
+</figure>
 
 I argue that the new regulations have fundamentally transformed F1 into a complex, sequential decision-making problem—the exact type of puzzle natively solved by reinforcement learning (RL). In an RL framework, an agent operates within an environment, takes actions, receives rewards, and learns increasingly clever strategies over time. This shift was recently recognized by the Mercedes-AMG team, who published a pre-print on optimizing race strategy using RL [2]. However, while they successfully beat their baseline, I believe they missed a massive opportunity by ignoring the *multi-agent* aspect of the sport. At the end of the day, a race strategy is only as good as how it stacks up against the reactive, evolving strategies of your opponents.
 
@@ -27,9 +31,10 @@ I will try to prove that even a simple model of this environment can be used to 
 
 In an MDP, the team makes decisions based solely on the *current* state of the environment, not on the entire history of the race. With 11 teams on the grid, this is the perfect setup for a Multi-Agent Reinforcement Learning (MARL) problem—a branch of machine learning where multiple agents learn to make decisions in a shared environment. In our case, the agents are the Pit Walls, and the environment is the race itself. The agents learn to adapt to each other and improve their performance by observing the consequences of their decisions (rewards). But before we can train them, let's build the simulation.
 
-![]({{ site.baseurl }}/assets/images/f1_2026_simulation.gif)
-
-Single game under the random strategy
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/f1_2026_simulation.gif" alt="Single game under the random strategy" loading="lazy" />
+  <figcaption>Single game under the random strategy</figcaption>
+</figure>
 
 ### 1. The Agents: You Are The Pit Wall
 

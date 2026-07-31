@@ -2,6 +2,7 @@
 layout: post
 title: "[Listened] Blocks of Intelligence: Why AI Needs Systems Engineering and the Scientific Method"
 date: 2026-03-30 05:29:21 +0000
+image: /assets/images/beck.png
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/listened-blocks-of-intelligence-why-ai-needs-systems-engineering-and-the-scientific-method/"
 ---
@@ -10,9 +11,10 @@ I’ve been away for a bit recently, mostly focusing on toughening up my immune 
 
 Clearly, I already knew we were living in the golden era of function approximation, my favorite LLM told me that much! But I had never really thought about its true limitations. It seems our current billion-dollar models are spectacular at finding correlations in data... and well, that is essentially all they do. They predict, they pattern-match, and they combine. But they don’t *invent*.
 
-https://youtu.be/9suqiofCiwM?si=gAH8p7rPL-euT7qg
-
-This first interview breaks down why current models hit a wall, and introduces the 'Lego block' approach to AI.
+<figure class="post-figure post-embed">
+  <iframe src="https://www.youtube.com/embed/9suqiofCiwM" title="This first interview breaks down why current models hit a wall, and introduces the 'Lego block' approach to AI." frameborder="0" loading="lazy" allowfullscreen></iframe>
+  <figcaption>This first interview breaks down why current models hit a wall, and introduces the 'Lego block' approach to AI.</figcaption>
+</figure>
 
 So, what is missing? If you listen to Dr. Beck, you will hear that we have to stop treating AI as a massive sequence predictor and start treating it as a Bayesian scientist or a systems engineer. Here are my core takeaways.
 
@@ -42,9 +44,10 @@ So, how do we get an AI to do systems engineering? Most likely not through one m
 
 Crucially, each of these small models should be sophisticated enough to model the features relevant to its connections. This can be achieved through active learning, where each subsystem is tested and refined. If a situation requires it, the agent should be able to train a new model from current experience, test it against the world, and incorporate it into its existing library. This is how we move from a collection of isolated facts to a true understanding of the world.
 
-https://youtu.be/Ucqfb33GJJ4?si=WruNJ9GxyHBrX15q
-
-For a deeper dive into how these specialized agents communicate and how we keep them safely aligned, check out part two.
+<figure class="post-figure post-embed">
+  <iframe src="https://www.youtube.com/embed/Ucqfb33GJJ4" title="For a deeper dive into how these specialized agents communicate and how we keep them safely aligned, check out part two." frameborder="0" loading="lazy" allowfullscreen></iframe>
+  <figcaption>For a deeper dive into how these specialized agents communicate and how we keep them safely aligned, check out part two.</figcaption>
+</figure>
 
 ### 4. Active Inference: Poking the Beach Ball and The Cat in the Warehouse
 

@@ -2,27 +2,40 @@
 layout: post
 title: "[Paper (p)review] Quantum Computation of Molecular Geometry via Many-body Nuclear Spin Echoes - Did we just enter an era of practical Quantum Computing?"
 date: 2025-10-23 14:07:07 +0000
+image: /assets/images/Screenshot-2025-10-23-at-15.45.37.png
 categories: ["previews"]
 tags: ["previews", "quantum-learning-machines"]
 original_url: "https://jan-a-krzywda.com/paper-preview-quantum-computation-of-molecular-geometry-via-many-body-nuclear-spin-echoes-did-we-just-enter-an-era-of-practical-quantum-computing/"
-image: /assets/images/Screenshot-2025-10-23-at-15.45.37.png
 ---
 
-![]({{ site.baseurl }}/assets/images/Screenshot-2025-10-23-at-15.45.37.png)
-
-Figure 1 from the [new pre-print](https://arxiv.org/pdf/2510.19550) illustrating the idea of digital twin.
+<figure class="post-figure">
+  <a href="https://arxiv.org/pdf/2510.19550"><img src="{{ site.baseurl }}/assets/images/Screenshot-2025-10-23-at-15.45.37.png" alt="Figure 1 from the new pre-print illustrating the idea of digital twin." loading="lazy" /></a>
+  <figcaption>Figure 1 from the <a href="https://arxiv.org/pdf/2510.19550" data-type="link" data-id="https://arxiv.org/pdf/2510.19550">new pre-print</a> illustrating the idea of digital twin.</figcaption>
+</figure>
 
 The idea of using a quantum computer as a simulator goes back to the great R. P. Feynman. Yet, 40 years later, practical applications of this idea appeared to be far from materializing.
 
 It seems this changes now, with the work of the Google Quantum AI team and collaborators. A new pre-print "[Quantum computation of molecular geometry via many-body nuclear spin echoes](https://arxiv.org/abs/2510.19550)" (and its recently published precursor on OTOCs) is a proof-of-concept demonstration that a quantum computer can help compute quantities of other quantum systems that are too complex to be simulated classically. The idea behind the work is not new either. Even inside the Google AI team, it has been on the table almost three years ago as proven by the talk by Tom O'Brien (the last author of the latest pre-print):
 
-https://youtu.be/nOKEiPfPiO0?si=vAw3Bah174Ea7Bik
+<figure class="post-figure post-embed">
+  <iframe src="https://www.youtube.com/embed/nOKEiPfPiO0" title="" frameborder="0" loading="lazy" allowfullscreen></iframe>
+</figure>
 
 The main point is to use the quantum computer as a digital twin of a target quantum system – here, molecules like toluene and DMBP suspended in liquid crystals – whose parameters (like shape or bond distances) are difficult to compute. Similarly to other applications of emulators known from engineering, like wind tunnels or driving simulators, the goal is to calibrate the digital twin until its response to a particular stimulus matches the response of the target system. Once the responses match, the parameters of the digital twin can be read out as the parameters of the target system. This contrasts with industrial digital twins often used for optimization and prediction, highlighting a use for parameter estimation.
 
-![]({{ site.baseurl }}/assets/images/image-8.png)
+<div class="fig-row">
+<div class="fig-col">
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-8.png" alt="" loading="lazy" />
+</figure>
+</div>
 
-![]({{ site.baseurl }}/assets/images/image-9.png)
+<div class="fig-col">
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-9.png" alt="" loading="lazy" />
+</figure>
+</div>
+</div>
 
 Two main results of the [new pre-print](https://arxiv.org/pdf/2510.19550)
 

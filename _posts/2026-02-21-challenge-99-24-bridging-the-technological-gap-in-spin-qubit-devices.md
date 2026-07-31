@@ -2,9 +2,9 @@
 layout: post
 title: "Challenge 99/24: Bridging the Technological Gap in Spin Qubit Devices"
 date: 2026-02-21 14:36:23 +0000
+image: /assets/images/image-39-e1771682887765.png
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/challenge-99-24-bridging-the-technological-gap-in-spin-qubit-devices/"
-image: /assets/images/image-38.png
 ---
 
 In the [previous post](https://jan-a-krzywda.com/the-valley-of-death-why-quantum-systems-engineering-never-really-took-off/), we discussed the gap in Technological Readiness Levels (TRL), a "valley of death" that currently traps quantum devices in a region where funding is still mostly academic. I believe the best way to bridge this gap is to formulate a sufficiently meaningful challenge. Solving it would allow us to leapfrog the gap entirely. Here, I propose one such challenge, explain its motivation using a motorsport analogy, break down why it is so difficult, and suggest a potential path to solve it.
@@ -15,17 +15,26 @@ February is that time of year when Formula 1 fans emerge to predict the new seas
 
 Interestingly, this sprint approach is exactly the *opposite* of how the automobile actually evolved.
 
-![]({{ site.baseurl }}/assets/images/image-38.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-38.png" alt="Ford T assembly line was the beginning of standardization as we know it. Creative Commons license." loading="lazy" />
+  <figcaption>Ford T assembly line was the beginning of standardization as we know it. Creative Commons license.</figcaption>
+</figure>
+<div class="fig-row">
+<div class="fig-col" style="flex-basis:40%">
+<p class="has-text-align-left">Historically, cars went from basic prototypes straight to scalability and endurance. Henry Ford revolutionized manufacturing through resilience. In motorsport, this endurance mindset birthed the 24 Hours of Le Mans, a brutal test of stamina for both man and machine (See Le Mans 66 the movie [1]). Even today, Le Mans Hypercars are massive, closed-cockpit machines built to survive 24 hours of abuse at 300<strong> </strong>km/h. Instead of obsessing over microscopic design limits like F1, Hypercar regulations focus on measurable performance outcomes, a philosophy deeply aligned with true Systems Engineering. For differences between F1 car and hypercar see this thread [2], interview with 2009 F1 World Champion Jenson Button [3], and the animation at the bottom.</p>
 
-Ford T assembly line was the beginning of standardization as we know it. Creative Commons license.
+<p></p>
 
-Historically, cars went from basic prototypes straight to scalability and endurance. Henry Ford revolutionized manufacturing through resilience. In motorsport, this endurance mindset birthed the 24 Hours of Le Mans, a brutal test of stamina for both man and machine (See Le Mans 66 the movie [1]). Even today, Le Mans Hypercars are massive, closed-cockpit machines built to survive 24 hours of abuse at 300km/h. Instead of obsessing over microscopic design limits like F1, Hypercar regulations focus on measurable performance outcomes, a philosophy deeply aligned with true Systems Engineering. For differences between F1 car and hypercar see this thread [2], interview with 2009 F1 World Champion Jenson Button [3], and the animation at the bottom.
+<p class="has-text-align-left">Quantum computing is currently doing this completely backward. We started by building F1-like quantum chips, hero devices that are fantastic for publishing papers in perfectly controlled labs, but terrible at long-term endurance. This is particularity true for semiconductor spin qubits, which pays for potential scalability with relatively more unpredictable environment that generates random electric and magnetic fields. If we want to leverage the semiconductor technology for quantum computing, we desperately need a "Hypercar" spin qubit. A standardized, resilient baseline is the only way to build a platform that actually scales.</p>
+</div>
 
-Quantum computing is currently doing this completely backward. We started by building F1-like quantum chips, hero devices that are fantastic for publishing papers in perfectly controlled labs, but terrible at long-term endurance. This is particularity true for semiconductor spin qubits, which pays for potential scalability with relatively more unpredictable environment that generates random electric and magnetic fields. If we want to leverage the semiconductor technology for quantum computing, we desperately need a "Hypercar" spin qubit. A standardized, resilient baseline is the only way to build a platform that actually scales.
-
-![]({{ site.baseurl }}/assets/images/image-41-819x1024.png)
-
-Comparison between Ferrari F1 and hypercar. From [5]
+<div class="fig-col" style="flex-basis:40%">
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-41-819x1024.png" alt="Comparison between Ferrari F1 and hypercar. From [5]" loading="lazy" />
+  <figcaption>Comparison between Ferrari F1 and hypercar. From [5]</figcaption>
+</figure>
+</div>
+</div>
 
 ## That’s why I’m proposing **Challenge 99/24** for spin qubits: Keep a two-qubit gate operational, meaning a fidelity above **99%**, consistently for **24** hours.
 
@@ -47,7 +56,9 @@ If you have an exchange coupling of 50 MHz, hitting your target phase takes a ga
 
 So, how much does the environment actually drift?
 
-![]({{ site.baseurl }}/assets/images/image-35-edited.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-35-edited.png" alt="" loading="lazy" />
+</figure>
 
 Even at smaller timescale, the expected drift is problematic. For the 1/f spectrum, which dominates those devices the typical drift depends on the waiting time as:
 

@@ -2,16 +2,20 @@
 layout: post
 title: "Scientist vs Engineer: The Differences"
 date: 2026-02-08 07:11:25 +0000
+image: /assets/images/aL6uRmGNHVfTOwpd_SP942-ScienceandEngineering.avif
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/scientist-vs-engineer-the-differences/"
-image: https://jan-a-krzywda.com/wp-content/uploads/2026/02/aL6uRmGNHVfTOwpd_SP942-ScienceandEngineering-edited-1024x683.avif
 ---
 
-![](https://jan-a-krzywda.com/wp-content/uploads/2026/02/aL6uRmGNHVfTOwpd_SP942-ScienceandEngineering-edited-1024x683.avif)
-
-Source: <https://sketchplanations.com/science-and-engineering>. Highly recommended!
-
-Have you ever wondered what is the difference between an engineer and a scientist? Since I happen to be both in a single person, I should be able to tell you. Yet, for me the borderline, especially in quantum computing, is not always clear.
+<figure class="post-figure">
+  <a href="https://sketchplanations.com/science-and-engineering"><img src="https://jan-a-krzywda.com/wp-content/uploads/2026/02/aL6uRmGNHVfTOwpd_SP942-ScienceandEngineering-edited-1024x683.avif" alt="Source: https://sketchplanations.com/science-and-engineering. Highly recommended!" loading="lazy" /></a>
+  <figcaption>Source: <a href="https://sketchplanations.com/science-and-engineering">https://sketchplanations.com/science-and-engineering</a>. Highly recommended!</figcaption>
+</figure>
+<div class="fig-row">
+<div class="fig-col" style="flex-basis:100%">
+<p>Have you ever wondered what is the difference between an engineer and a scientist? Since I happen to be both in a single person, I should be able to tell you. Yet, for me the borderline, especially in quantum computing, is not always clear.</p>
+</div>
+</div>
 
 ### 1. Time-frame and Money
 
@@ -22,9 +26,10 @@ I found this Reddit statement a good starting point. It mostly refers to the tim
 
 This is directly reflected in the way it produces value for the company and society. While basic research can contribute up to 50% of return on investment for society, the typical time-frame for that is 20 years [2]. The opposite is true for engineering, which often brings more immediate returns to a much narrower group of people, often a specific company (10% of ROI), but in the much shorter time-frame of 1-5 years. In a nutshell, since science benefits society in the long term, it is often funded by public money, while engineering is more directly connected to the market and private funding.
 
-![]({{ site.baseurl }}/assets/images/image-2.png)
-
-Source: <https://petewarden.com/2010/07/28/a-mad-engineer-at-scifoo/>
+<figure class="post-figure">
+  <a href="https://petewarden.com/2010/07/28/a-mad-engineer-at-scifoo/"><img src="{{ site.baseurl }}/assets/images/image-2.png" alt="Source: https://petewarden.com/2010/07/28/a-mad-engineer-at-scifoo/" loading="lazy" /></a>
+  <figcaption>Source: <a href="https://petewarden.com/2010/07/28/a-mad-engineer-at-scifoo/">https://petewarden.com/2010/07/28/a-mad-engineer-at-scifoo/</a></figcaption>
+</figure>
 
 ### 2. The Goal
 
@@ -35,15 +40,17 @@ Following up on another Reddit wisdom [1], another difference between scientists
 
 Yet knowledge is not a product (see above), and it is not easy to sell. Engineers, on the other hand, are focused on solving problems, building things, and creating value. In a paper from 1967 [3], besides a long tirade about how to fascinate kids with engineering, I found that engineers are producers of capital goods—the *whatchamacallits* that can repeatedly be used to produce other goods and services.
 
-![]({{ site.baseurl }}/assets/images/image.png)
-
-Interesting but less practical approach (left) vs pragmatic and robust approach (right).
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image.png" alt="Interesting but less practical approach (left) vs pragmatic and robust approach (right)." loading="lazy" />
+  <figcaption>Interesting but less practical approach (left) vs pragmatic and robust approach (right).</figcaption>
+</figure>
 
 ### 3. The Philosophy
 
-![]({{ site.baseurl }}/assets/images/image-12-1024x576.png)
-
-What is in the box?
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-12-1024x576.png" alt="What is in the box?" loading="lazy" />
+  <figcaption><br>What is in the box?</figcaption>
+</figure>
 
 The difference in mindset can be summarized by the approach of both groups to the "black box." While the engineer would be more interested in characterizing the input-output behavior of the box, the scientist would be more interested in understanding the internal workings of the box.
 
@@ -65,9 +72,33 @@ Other sources:
 
 More memes:
 
-![]({{ site.baseurl }}/assets/images/image-10.png)
-![]({{ site.baseurl }}/assets/images/image-14-1024x718.png)
-![]({{ site.baseurl }}/assets/images/image-15.png)
-![]({{ site.baseurl }}/assets/images/image-16.png)
-![]({{ site.baseurl }}/assets/images/image-18-576x1024.png)
-![]({{ site.baseurl }}/assets/images/image-19.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-10.png" alt="" loading="lazy" />
+</figure>
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-14-1024x718.png" alt="" loading="lazy" />
+</figure>
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-15.png" alt="" loading="lazy" />
+</figure>
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-16.png" alt="" loading="lazy" />
+</figure>
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-18-576x1024.png" alt="" loading="lazy" />
+</figure>
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-19.png" alt="" loading="lazy" />
+</figure>
+
+<div class="fig-row">
+<div class="fig-col"></div>
+
+<div class="fig-col">
+
+<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px">
+
+</div>
+
+</div>
+</div>

@@ -2,38 +2,54 @@
 layout: post
 title: "The Valley of Death: Why Quantum Systems Engineering Never Really Took Off"
 date: 2026-02-15 07:34:01 +0000
+image: /assets/images/doe-tech-valley-of-death-e1771141029627.webp
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/the-valley-of-death-why-quantum-systems-engineering-never-really-took-off/"
-image: /assets/images/image-32.png
 ---
 
-In the previous parts, we established that Scientists and Engineers speak different languages, yet they often need to share tools or negotiate common ground. For large projects, this process is most efficient with a **Systems Engineer**, who can define a concrete interface between the two—setting concrete goals for the engineer while framing the open problems for the scientist. We also argued that Quantum Computing clearly requires such a bridge. So, logically, Quantum Systems Engineering (QSE) should be a thriving, booming discipline by now, right?
+<div class="fig-row">
+<div class="fig-col" style="flex-basis:60%">
+<p>In the previous parts, we established that Scientists and Engineers speak different languages, yet they often need to share tools or negotiate common ground. For large projects, this process is most efficient with a <strong>Systems Engineer</strong>, who can define a concrete interface between the two—setting concrete goals for the engineer while framing the open problems for the scientist. We also argued that Quantum Computing clearly requires such a bridge. So, logically, Quantum Systems Engineering (QSE) should be a thriving, booming discipline by now, right?</p>
 
-## Wrong.
+<h2 class="wp-block-heading">Wrong.</h2>
 
-Despite a promising start around 2016, when researchers first defined a "structured approach" to the field [1], the true *Systems* community never really took off. While the paper called for adopting the SE lifecycle and V-model, it already hinted at the biggest problem: with entanglement, chunking the system into subsystems is not always possible, and neither is drawing the system boundary. A few years later, a doctoral thesis on the topic [2] attempted to use SE tools, like failure mode analysis, but highlighted another blocker: the lack of suitable engineering models. More recently, the community seems to have concentrated heavily on software and algorithmic aspects [3,4]. In those reviews, we find a plethora of fragmented routines, classical algorithms, and architecture designs [4], but the large picture and architectural standards are still missing.
+<p>Despite a promising start around 2016, when researchers first defined a "structured approach" to the field [1], the true <em>Systems</em> community never really took off. While the paper called for adopting the SE lifecycle and V-model, it already hinted at the biggest problem: with entanglement, chunking the system into subsystems is not always possible, and neither is drawing the system boundary. A few years later, a doctoral thesis on the topic [2] attempted to use SE tools, like failure mode analysis, but highlighted another blocker: the lack of suitable engineering models. More recently, the community seems to have concentrated heavily on software and algorithmic aspects [3,4]. In those reviews, we find a plethora of fragmented routines, classical algorithms, and architecture designs [4], but the large picture and architectural standards are still missing.</p>
 
-### 1. Problems of QSE:
+<h3 class="wp-block-heading">1. Problems of QSE:</h3>
 
-1. **Culture Clash:** Physical labs are focused on scientific discovery rather than product reliability.
-2. **Model Gap:** We lack "hierarchical models" that can capture the relevant dynamics of the system without getting lost in exponential math.
-3. **Skill Gap:** Engineers cannot design these systems without effectively needing a PhD in quantum physics.
-4. **Boundaries:** Standard input-output modeling and modularity are difficult due to entanglement, which blurs the "system of interest" boundaries.
-5. **Velocity:** The technology is moving so fast that requirements change faster than we can build the system.
-6. **Vague Needs:** "Stakeholder Needs" are often ill-defined or rely on quantum hype. Because the "value proposition" of quantum computing is still evolving, requirements are vague and shifting, making it hard to design a system to meet them.
-7. **Verification:** Standard engineering relies on testing against a known "truth," but as quantum systems scale beyond classical simulation, we lose the ability to easily verify if the system is actually working as specified.
+<ol class="wp-block-list">
+<li><strong>Culture Clash:</strong> Physical labs are focused on scientific discovery rather than product reliability.</li>
 
-![]({{ site.baseurl }}/assets/images/image-32.png)
+<li><strong>Model Gap:</strong> We lack "hierarchical models" that can capture the relevant dynamics of the system without getting lost in exponential math.</li>
 
-Adapted from [4]. The closest match to full quantum architecture.
+<li><strong>Skill Gap:</strong> Engineers cannot design these systems without effectively needing a PhD in quantum physics.</li>
+
+<li><strong>Boundaries:</strong> Standard input-output modeling and modularity are difficult due to entanglement, which blurs the "system of interest" boundaries.</li>
+
+<li><strong>Velocity:</strong> The technology is moving so fast that requirements change faster than we can build the system.</li>
+
+<li><strong>Vague Needs:</strong> "Stakeholder Needs" are often ill-defined or rely on quantum hype. Because the "value proposition" of quantum computing is still evolving, requirements are vague and shifting, making it hard to design a system to meet them.</li>
+
+<li><strong>Verification:</strong> Standard engineering relies on testing against a known "truth," but as quantum systems scale beyond classical simulation, we lose the ability to easily verify if the system is actually working as specified.</li>
+</ol>
+</div>
+
+<div class="fig-col" style="flex-basis:50%">
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-32.png" alt="Adapted from [4]. The closest match to full quantum architecture." loading="lazy" />
+  <figcaption>Adapted from [4]. The closest match to full quantum architecture.</figcaption>
+</figure>
+</div>
+</div>
 
 ### 2. The TRL Gaps (or: "It works in the fridge")
 
 The fundamental problem is the Technology Readiness Level (TRL) gap. The TRL framework defines the stages of technology development from basic research (TRL 1) to fully operational systems (TRL 9). It also identifies many gaps along the way, including technological and commercialization valleys of death. The first one is the "Lab-to-Prototype" gap, where a scientific discovery needs to be turned into a working prototype. The second one is the "Prototype-to-Product" gap, where a prototype needs to be engineered into a reliable, scalable product.
 
-![]({{ site.baseurl }}/assets/images/image-34-1024x566.png)
-
-Technology Readiness Level (TRL) and the different gaps that spin- and superconducting- qubits are currently facing. Adapted from [5]
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-34-1024x566.png" alt="Technology Readiness Level (TRL) and the different gaps that spin- and superconducting- qubits are currently facing. Adapted from [5]" loading="lazy" />
+  <figcaption>Technology Readiness Level (TRL) and the different gaps that spin- and superconducting- qubits are currently facing. Adapted from [5]</figcaption>
+</figure>
 
 - Scientists (TRL 1-3)**:** Work in the lab. They are happy if the qubit works *once* to get the plot for the paper.
 - Engineers (TRL 6-9)**:** Work in the factory. They need the qubit to work *every time* inside a product.
@@ -61,3 +77,15 @@ Together, these two steps would set the foundation for the growth of quantum sys
 [6] Scotti, L., Basoalto, H., Moffat, J. et al. Review of Material Modeling and Digitalization in Industry: Barriers and Perspectives. Integr Mater Manuf Innov 12, 397–420 (2023).
 [7] More on TR from NASA: <https://esto.nasa.gov/trl/>
 [8] Thumbnail from: <https://publicenterprise.org/the-project-finance-valley-of-death/>
+
+<div class="fig-row">
+<div class="fig-col"></div>
+
+<div class="fig-col">
+
+<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px">
+
+</div>
+
+</div>
+</div>

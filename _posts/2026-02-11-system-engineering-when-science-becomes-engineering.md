@@ -2,14 +2,15 @@
 layout: post
 title: "Systems Engineering: When Science Becomes Engineering"
 date: 2026-02-11 06:07:36 +0000
+image: /assets/images/image-29.png
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/system-engineering-when-science-becomes-engineering/"
-image: /assets/images/image-29-1024x512.png
 ---
 
-![]({{ site.baseurl }}/assets/images/image-29-1024x512.png)
-
-From: <https://reqi.io/articles/truth-over-complicated-systems-engineering>
+<figure class="post-figure">
+  <a href="https://reqi.io/articles/truth-over-complicated-systems-engineering"><img src="{{ site.baseurl }}/assets/images/image-29-1024x512.png" alt="From: https://reqi.io/articles/truth-over-complicated-systems-engineering" loading="lazy" /></a>
+  <figcaption>From: <a href="https://reqi.io/articles/truth-over-complicated-systems-engineering">https://reqi.io/articles/truth-over-complicated-systems-engineering</a></figcaption>
+</figure>
 
 In the [previous post](https://jan-a-krzywda.com/scientist-vs-engineer-the-differences/), we left off with the tension between the Scientist (who wants to open the black box) and the Engineer (who wants to connect it). To understand how to bridge this gap, we first need to look at what they actually do all day.
 
@@ -18,7 +19,9 @@ In the [previous post](https://jan-a-krzywda.com/scientist-vs-engineer-the-diffe
 Scientists: "I will investigate why you suck."
 Engineers: "I don't care why, but I will quantify, to five decimal places, exactly how much you suck." [1]
 
-![]({{ site.baseurl }}/assets/images/image-24-1024x709.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-24-1024x709.png" alt="" loading="lazy" />
+</figure>
 > Despite their different philosophies, the tools and methods used by both sides are surprisingly similar.
 >
 > Investigating phenomena is a key part of the scientific process, but it is not the only one. Scientists also need to design experiments, build apparatuses, and develop methods to test their hypotheses. Very often—particularly in experimental physics—they are using engineering principles: reusing components, writing code, and optimizing procedures to verify their concrete predictions.
@@ -31,9 +34,10 @@ For engineers, this tribal knowledge is simply codified. It takes the form of st
 
 Scientists look for funding. Engineers do paperwork. [2]
 
-![]({{ site.baseurl }}/assets/images/image-23.png)
-
-<https://www.npr.org/2025/12/23/nx-s1-5653374/science-funding-was-hit-in-2025-what-does-that-mean-for-the-future>
+<figure class="post-figure">
+  <a href="https://www.npr.org/2025/12/23/nx-s1-5653374/science-funding-was-hit-in-2025-what-does-that-mean-for-the-future"><img src="{{ site.baseurl }}/assets/images/image-23.png" alt="https://www.npr.org/2025/12/23/nx-s1-5653374/science-funding-was-hit-in-2025-what-does-that-mean-for-the-future" loading="lazy" /></a>
+  <figcaption><a href="https://www.npr.org/2025/12/23/nx-s1-5653374/science-funding-was-hit-in-2025-what-does-that-mean-for-the-future">https://www.npr.org/2025/12/23/nx-s1-5653374/science-funding-was-hit-in-2025-what-does-that-mean-for-the-future</a></figcaption>
+</figure>
 
 While both often receive fixed salaries, the source of that funding dictates their reality. This creates distinct working environments. Scientists in academia generally possess the freedom to explore, but face uncertainty and fierce competition for grants. Engineers in industry typically enjoy more resources and support, but face immense pressure to deliver specific results within rigid timeframes.
 
@@ -45,9 +49,10 @@ This requires decisions to be made on the fly, demanding a level of iteration th
 
 ### 3. Systems Engineering - the bridge we need
 
-![]({{ site.baseurl }}/assets/images/image-22.png)
-
-International Council on Systems Engineering (INCOSE)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-22.png" alt="International Council on Systems Engineering (INCOSE)" loading="lazy" />
+  <figcaption>International Council on Systems Engineering (INCOSE)</figcaption>
+</figure>
 
 While the scientist is interested in opening the black box, and the engineer aims to connect many boxes into a valuable product, interestingly enough, once sufficiently many and sufficiently complex "black boxes" are connected together, the system itself starts to develop its own input-output behavior, often with non-trivial emergent properties. Because these macroscopic behaviors (like non-linearities, cross-talk, and noise) arise from the *interactions* rather than the components themselves, a pure physicist’s reductionism isn't enough. A hybrid approach is needed.
 
@@ -55,9 +60,10 @@ This is where Systems Engineering comes into play. It acts as a discipline that 
 
 ### 4. Quantum Engineering
 
-![]({{ site.baseurl }}/assets/images/image-26.png)
-
-Quantum architecting process and its activities, adapted from [5]
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-26.png" alt="Quantum architecting process and its activities, adapted from [5]" loading="lazy" />
+  <figcaption>Quantum architecting process and its activities, adapted from [5]</figcaption>
+</figure>
 
 Quantum computing is the place where principles of quantum mechanics are applied to build practical devices, with a keen eye on return on investment. It is like a... superposition of science and engineering (I cannot believe I wrote that, but ok)
 
@@ -75,10 +81,40 @@ This sounds like a job for **Q**uantum Systems Engineering. The field that alrea
 [6] <https://doi.org/10.1016/j.jss.2023.111682>
 [7] Matlab course on SE: <https://www.mathworks.com/videos/systems-engineering-part-1-what-is-systems-engineering--1602837702185.html>
 
-![]({{ site.baseurl }}/assets/images/image-20-1024x729.png)
+<div class="fig-row">
+<div class="fig-col" style="flex-basis:25%">
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-20-1024x729.png" alt="" loading="lazy" />
+</figure>
+</div>
 
-![]({{ site.baseurl }}/assets/images/image-21.png)
+<div class="fig-col" style="flex-basis:25%">
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-21.png" alt="" loading="lazy" />
+</figure>
+</div>
 
-![]({{ site.baseurl }}/assets/images/image-27.png)
+<div class="fig-col" style="flex-basis:25%">
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-27.png" alt="" loading="lazy" />
+</figure>
+</div>
 
-![]({{ site.baseurl }}/assets/images/image-28-1024x935.png)
+<div class="fig-col" style="flex-basis:25%">
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/image-28-1024x935.png" alt="" loading="lazy" />
+</figure>
+</div>
+</div>
+
+<div class="fig-row">
+<div class="fig-col"></div>
+
+<div class="fig-col">
+
+<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px">
+
+</div>
+
+</div>
+</div>

@@ -6,40 +6,68 @@ permalink: /projects/
 original_url: "https://jan-a-krzywda.com/projects/"
 ---
 
-### Quantum Learning Machines
+<div class="fig-row">
+<div class="fig-col">
+<h3 class="wp-block-heading has-text-align-center">Quantum Learning Machines</h3>
 
-Practical use of noisy quantum devices for data-driven learning, reinforcement learning and generative AI.
+<p>Practical use of noisy quantum devices for data-driven learning, reinforcement learning and generative AI.</p>
 
-![]({{ site.baseurl }}/assets/images/Gemini_Generated_Image_bleqhmbleqhmbleq-edited-2.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/Gemini_Generated_Image_bleqhmbleqhmbleq-edited-2.png" alt="" loading="lazy" />
+</figure>
+</div>
 
-### Charge noise in spin qubits
+<div class="fig-col">
+<h3 class="wp-block-heading has-text-align-center">Charge noise in spin qubits</h3>
 
-Arguably the biggest obstacle to large scale spin qubit device. Experimental characterization and ab-initio simulation
+<p>Arguably the biggest obstacle to large scale spin qubit device. Experimental characterization and ab-initio simulation</p>
 
-![]({{ site.baseurl }}/assets/images/Gemini_Generated_Image_gbqgecgbqgecgbqg-edited.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/Gemini_Generated_Image_gbqgecgbqgecgbqg-edited.png" alt="" loading="lazy" />
+</figure>
+</div>
 
-### Quantum games
+<div class="fig-col">
+<h3 class="wp-block-heading has-text-align-center">Quantum games</h3>
 
-Games drive progress, from chess to computer graphics. Now the time has come to quantum technologies.
+<p>Games drive progress, from chess to computer graphics. Now the time has come to quantum technologies.</p>
 
-![]({{ site.baseurl }}/assets/images/Gemini_Generated_Image_rgiaewrgiaewrgia-edited.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/Gemini_Generated_Image_rgiaewrgiaewrgia-edited.png" alt="" loading="lazy" />
+</figure>
+</div>
+</div>
 
 ---
 
-### Spin Qubits Emulator
+<div class="fig-row">
+<div class="fig-col">
+<h3 class="wp-block-heading has-text-align-center">Spin Qubits Emulator</h3>
 
-Spin qubit are complex. Lots of data is needed for autonomous tuning and new algorithms dev. Digital twin is needed for that.
+<p>Spin qubit are complex. Lots of data is needed for autonomous tuning and new algorithms dev. Digital twin is needed for that.</p>
 
-![]({{ site.baseurl }}/assets/images/Gemini_Generated_Image_o4xnwao4xnwao4xn-edited.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/Gemini_Generated_Image_o4xnwao4xnwao4xn-edited.png" alt="" loading="lazy" />
+</figure>
+</div>
 
-### Close-loop Feedback Quantum control
+<div class="fig-col">
+<h3 class="wp-block-heading has-text-align-center">Close-loop Feedback Quantum control</h3>
 
-Qubits suffer from dynamical noise. We deploy real-life FPGA controller to track down and correct random fluctuations.
+<p>Qubits suffer from dynamical noise. We deploy real-life FPGA controller to track down and correct random fluctuations.</p>
 
-![]({{ site.baseurl }}/assets/images/Gemini_Generated_Image_zhiwatzhiwatzhiw-edited.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/Gemini_Generated_Image_zhiwatzhiwatzhiw-edited.png" alt="" loading="lazy" />
+</figure>
+</div>
 
-### Machine Learning For Quantum
+<div class="fig-col">
+<h3 class="wp-block-heading has-text-align-center">Machine Learning For Quantum</h3>
 
-Classical machine learning methods for processing and simulating quantum systems and devices from sparse data.
+<p>Classical machine learning methods for processing and simulating quantum systems and devices from sparse data.</p>
 
-![]({{ site.baseurl }}/assets/images/Gemini_Generated_Image_6zt4u56zt4u56zt4-edited.png)
+<figure class="post-figure">
+  <img src="{{ site.baseurl }}/assets/images/Gemini_Generated_Image_6zt4u56zt4u56zt4-edited.png" alt="" loading="lazy" />
+</figure>
+</div>
+</div>
