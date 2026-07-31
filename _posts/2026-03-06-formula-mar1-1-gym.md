@@ -5,6 +5,7 @@ date: 2026-03-06 15:46:29 +0000
 image: /assets/images/MQ7-0-image-20210922114417-00_Main_4252.jpg
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/formula-mar1-1-gym/"
+excerpt: "\"What I cannot create, I do not understand.\" When Richard Feynman wrote those famous last words on his blackboard, he probably didn't have Multi-Agent Reinforcement Learning (MARL) for Formula 1 strategy in mind."
 ---
 
 GitHub repo: <https://github.com/jan-a-krzywda/marl-f1>

@@ -5,6 +5,7 @@ date: 2026-04-23 20:35:41 +0000
 image: /assets/images/image-11-e1776976532677.png
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/erratiq-human-perception-for-quantum-error-decoding/"
+excerpt: "Human perception allows us to automatically detect patterns."
 ---
 
 [Play the game](https://erratiq.xyz/)

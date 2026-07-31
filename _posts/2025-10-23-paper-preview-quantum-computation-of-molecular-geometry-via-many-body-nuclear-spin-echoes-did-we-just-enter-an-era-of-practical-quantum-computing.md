@@ -6,6 +6,7 @@ image: /assets/images/Screenshot-2025-10-23-at-15.45.37.png
 categories: ["previews"]
 tags: ["previews", "quantum-learning-machines"]
 original_url: "https://jan-a-krzywda.com/paper-preview-quantum-computation-of-molecular-geometry-via-many-body-nuclear-spin-echoes-did-we-just-enter-an-era-of-practical-quantum-computing/"
+excerpt: "The idea of using a quantum computer as a simulator goes back to the great R. P. Feynman."
 ---
 
 <figure class="post-figure">
