@@ -5,6 +5,7 @@ date: 2026-05-18 11:27:10 +0000
 image: /assets/images/image-15.png
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/bypassing-the-latency-bottleneck-on-chip-logic-for-real-time-shadow-tomography/"
+excerpt: "Environments with many constrains often drive most relevant leaps. The same holds true for near-term quantum hardware, including the Quantum Inspire device."
 ---
 
 [GitHub Repo ![]({{ site.baseurl }}/assets/images/25231.png)](https://github.com/jan-a-krzywda/quantum-gym/tree/main/shadow_gym)

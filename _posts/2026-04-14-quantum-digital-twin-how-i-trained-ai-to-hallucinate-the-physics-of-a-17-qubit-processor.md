@@ -5,6 +5,7 @@ date: 2026-04-14 12:29:52 +0000
 image: /assets/images/thumnail_qi.png
 categories: ["Uncategorized"]
 original_url: "https://jan-a-krzywda.com/quantum-digital-twin-how-i-trained-ai-to-hallucinate-the-physics-of-a-17-qubit-processor/"
+excerpt: "I recently got my hands on a 17-qubit superconducting transmon device of Quantum Inspire."
 ---
 
 [GitHub Repo ![]({{ site.baseurl }}/assets/images/25231.png)](https://github.com/jan-a-krzywda/quantum-gym)

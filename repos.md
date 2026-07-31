@@ -32,7 +32,7 @@ edges.
   var hide = [];
 
   // Repos to pin at the top, in order.
-  var pinned = ["arxave", "QDarts"];
+  var pinned = ["arxave"];
 
   // Colours roughly matching GitHub's language dots. Anything missing falls
   // back to the accent colour.
