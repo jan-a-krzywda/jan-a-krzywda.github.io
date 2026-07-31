@@ -43,7 +43,6 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 permalink: /:year/:month/:title/
-paginate: false
 timezone: Europe/Amsterdam
 
 plugins:
