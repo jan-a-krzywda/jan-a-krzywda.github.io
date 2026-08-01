@@ -2,7 +2,7 @@
 layout: post
 title: "Bypassing the Latency Bottleneck: On-Chip Logic for Real-Time Shadow Tomography"
 date: 2026-05-18 11:27:10 +0000
-image: /assets/images/image-15.png
+image: /assets/images/latency1.webp
 categories: ["code"]
 original_url: "https://jan-a-krzywda.com/bypassing-the-latency-bottleneck-on-chip-logic-for-real-time-shadow-tomography/"
 excerpt: "Environments with many constrains often drive most relevant leaps. The same holds true for near-term quantum hardware, including the Quantum Inspire device."
