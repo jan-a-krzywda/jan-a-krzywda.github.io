@@ -3,7 +3,7 @@ layout: post
 title: "The Valley of Death: Why Quantum Systems Engineering Never Really Took Off"
 date: 2026-02-15 07:34:01 +0000
 image: /assets/images/doe-tech-valley-of-death-e1771141029627.webp
-categories: ["Uncategorized"]
+categories: ["opinion"]
 original_url: "https://jan-a-krzywda.com/the-valley-of-death-why-quantum-systems-engineering-never-really-took-off/"
 ---
 

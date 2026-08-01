@@ -3,7 +3,7 @@ layout: post
 title: "[Listened] Blocks of Intelligence: Why AI Needs Systems Engineering and the Scientific Method"
 date: 2026-03-30 05:29:21 +0000
 image: /assets/images/beck.png
-categories: ["Uncategorized"]
+categories: ["opinion"]
 original_url: "https://jan-a-krzywda.com/listened-blocks-of-intelligence-why-ai-needs-systems-engineering-and-the-scientific-method/"
 ---
 

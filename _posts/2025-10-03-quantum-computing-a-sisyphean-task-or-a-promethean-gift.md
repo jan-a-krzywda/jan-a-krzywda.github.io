@@ -3,7 +3,7 @@ layout: post
 title: "Quantum Computing: A Sisyphean Task or a Promethean Gift?"
 date: 2025-10-03 05:59:09 +0000
 image: /assets/images/Gemini_Generated_Image_f56w7pf56w7pf56w-e1759471243693.png
-categories: ["Uncategorized"]
+categories: ["opinion"]
 original_url: "https://jan-a-krzywda.com/quantum-computing-a-sisyphean-task-or-a-promethean-gift/"
 ---
 

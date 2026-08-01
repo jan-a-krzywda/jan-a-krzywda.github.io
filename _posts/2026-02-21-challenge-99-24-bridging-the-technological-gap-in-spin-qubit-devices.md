@@ -3,7 +3,7 @@ layout: post
 title: "Challenge 99/24: Bridging the Technological Gap in Spin Qubit Devices"
 date: 2026-02-21 14:36:23 +0000
 image: /assets/images/image-39-e1771682887765.png
-categories: ["Uncategorized"]
+categories: ["opinion"]
 original_url: "https://jan-a-krzywda.com/challenge-99-24-bridging-the-technological-gap-in-spin-qubit-devices/"
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "[Our Paper] Statistical Structure of Charge Disorder in Si/SiGe Quantum Dots"
 date: 2025-10-17 10:21:17 +0000
 image: /assets/images/image-6.png
-categories: ["Uncategorized"]
+categories: ["paper"]
 original_url: "https://jan-a-krzywda.com/our-paper-statistical-structure-of-charge-disorder-in-si-sige-quantum-dots/"
 ---
 
