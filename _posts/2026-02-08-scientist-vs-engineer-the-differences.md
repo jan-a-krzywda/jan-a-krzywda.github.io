@@ -3,7 +3,7 @@ layout: post
 title: "Scientist vs Engineer: The Differences"
 date: 2026-02-08 07:11:25 +0000
 image: /assets/images/aL6uRmGNHVfTOwpd_SP942-ScienceandEngineering.avif
-categories: ["Uncategorized"]
+categories: ["opinion"]
 original_url: "https://jan-a-krzywda.com/scientist-vs-engineer-the-differences/"
 excerpt: "Have you ever wondered what is the difference between an engineer and a scientist?"
 ---

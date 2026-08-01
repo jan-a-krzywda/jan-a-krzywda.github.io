@@ -3,12 +3,12 @@ layout: post
 title: "Quantum Digital Twin: How I Trained AI to Hallucinate the Physics of a 17-Qubit Processor"
 date: 2026-04-14 12:29:52 +0000
 image: /assets/images/thumnail_qi.png
-categories: ["Uncategorized"]
+categories: ["code"]
 original_url: "https://jan-a-krzywda.com/quantum-digital-twin-how-i-trained-ai-to-hallucinate-the-physics-of-a-17-qubit-processor/"
 excerpt: "I recently got my hands on a 17-qubit superconducting transmon device of Quantum Inspire."
 ---
 
-[GitHub Repo ![]({{ site.baseurl }}/assets/images/25231.png)](https://github.com/jan-a-krzywda/quantum-gym)
+<a class="github-badge" href="https://github.com/jan-a-krzywda/quantum-gym"><img src="{{ site.baseurl }}/assets/images/25231.png" alt="" class="github-logo" /> GitHub Repo</a>
 
 I recently got my hands on a 17-qubit superconducting transmon device of Quantum Inspire (<https://www.quantum-inspire.com/>).
 
@@ -17,7 +17,7 @@ Before developing complex quantum algorithms, I wanted to build a systems-level 
 <div class="fig-row">
 <div class="fig-col" style="flex-basis:33.33%">
 <figure class="post-figure">
-  <img src="{{ site.baseurl }}/assets/images/image-4.png" alt="Topography of the transmon device" loading="lazy" />
+  <img src="{{ site.baseurl }}/assets/images/digital_twin1.webp" alt="Topography of the transmon device" loading="lazy" />
   <figcaption>Topography of the transmon device</figcaption>
 </figure>
 </div>

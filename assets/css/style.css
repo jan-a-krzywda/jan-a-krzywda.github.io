@@ -338,6 +338,19 @@ th, td { border-bottom: 1px solid var(--rule); padding: 0.5rem; text-align: left
 }
 .post-figure figcaption a { color: var(--muted); }
 
+.github-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+.github-logo {
+  height: 1em;
+  width: auto;
+  display: inline;
+  border-radius: 0;
+  vertical-align: middle;
+}
+
 /* side-by-side figures, from WordPress column blocks */
 .fig-row {
   display: flex;

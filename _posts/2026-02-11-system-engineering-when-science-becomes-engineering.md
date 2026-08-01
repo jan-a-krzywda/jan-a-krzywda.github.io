@@ -3,7 +3,7 @@ layout: post
 title: "Systems Engineering: When Science Becomes Engineering"
 date: 2026-02-11 06:07:36 +0000
 image: /assets/images/image-29.png
-categories: ["Uncategorized"]
+categories: ["opinion"]
 original_url: "https://jan-a-krzywda.com/system-engineering-when-science-becomes-engineering/"
 excerpt: "In the previous post, we left off with the tension between the Scientist (who wants to open the black box) and the Engineer (who wants to connect it)."
 ---

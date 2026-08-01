@@ -3,7 +3,7 @@ layout: post
 title: "Formula Mar1 - #1 Gym"
 date: 2026-03-06 15:46:29 +0000
 image: /assets/images/MQ7-0-image-20210922114417-00_Main_4252.jpg
-categories: ["Uncategorized"]
+categories: ["code"]
 original_url: "https://jan-a-krzywda.com/formula-mar1-1-gym/"
 excerpt: "\"What I cannot create, I do not understand.\" When Richard Feynman wrote those famous last words on his blackboard, he probably didn't have Multi-Agent Reinforcement Learning (MARL) for Formula 1 strategy in mind."
 ---
@@ -13,7 +13,7 @@ GitHub repo: <https://github.com/jan-a-krzywda/marl-f1>
 *"What I cannot create, I do not understand."* When Richard Feynman wrote those famous last words on his blackboard, he probably didn't have Multi-Agent Reinforcement Learning (MARL) for Formula 1 strategy in mind. Nevertheless, the thread that connects his philosophy to modern motorsport is the power of model-based thinking.
 
 <figure class="post-figure">
-  <img src="{{ site.baseurl }}/assets/images/image.png" alt="" loading="lazy" />
+  <img src="{{ site.baseurl }}/assets/images/f1marl1.webp" alt="" loading="lazy" />
 </figure>
 
 To prove this point, this post will attempt to model the new 2026 Formula 1 regulations [1], which push the sport in a vastly more complex direction. With the highly anticipated season kicking off this weekend in Australia, everyone is wondering how the new rules will affect racing at 300 km/h in this state-of-the-art engineering endeavor. Since nobody knows for sure, we are going to build it to find out.

@@ -3,7 +3,7 @@ layout: post
 title: "The Lego Test: How much systems thinking does an LLM have?"
 date: 2026-04-08 04:28:31 +0000
 image: /assets/images/footnail.png
-categories: ["Uncategorized"]
+categories: ["opinion"]
 original_url: "https://jan-a-krzywda.com/lego-test-how-much-systems-thinking-llm-has/"
 ---
 
