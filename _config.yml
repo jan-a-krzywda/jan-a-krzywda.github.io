@@ -41,10 +41,14 @@ nav:
   - title: arXave
     url: "https://jan-a-krzywda.com/arxave/"
     external: true
+  - title: Erratiq
+    url: "https://erratiq.xyz/"
+    external: true
 
 # ---------------------------------------------------------------------------
 # Build settings — you shouldn't need to touch these.
 # ---------------------------------------------------------------------------
+theme: null
 markdown: kramdown
 kramdown:
   input: GFM
