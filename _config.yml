@@ -45,6 +45,7 @@ nav:
 # ---------------------------------------------------------------------------
 # Build settings — you shouldn't need to touch these.
 # ---------------------------------------------------------------------------
+theme: null
 markdown: kramdown
 kramdown:
   input: GFM
